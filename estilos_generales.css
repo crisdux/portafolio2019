@@ -9,3 +9,13 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
+.contenedor{
+    width:90%;
+    max-width: 800px;
+    margin:auto;
+}
+
