@@ -14,7 +14,7 @@
     display: block;
     padding: 0;
     margin: 10px;
-    width: calc(33.33% - 20px);
+    width: calc(33.33333333333% - 20px);
 }
 
 .grid .item-contenido{
