@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/18f3901e1f.js"></script>
     <link rel="stylesheet" href="estilos_generales.css">
     <link rel="stylesheet" href="estilos_header.css">
     <link rel="stylesheet" href="estilos_categorias.css">
     <link rel="stylesheet" href="estilos_grid.css">
+    <link rel="stylesheet" href="overlay.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
     <title>Portafolio dinamico | Cristian Fernando Villca Gutierrez</title>
 </head>
@@ -78,7 +80,7 @@
 
             <div class="item" 
                 data-categoria="animales"
-                data-etiquetas="animales tigre"
+                data-etiquetas="animales leon"
                 data-descripcion="5. Lorem ipsum ici bah ocoje"
             >
                 <div class="item-contenido">
@@ -126,6 +128,14 @@
                 </div>
             </div>            
         </div>
+
+        <section class="overlay " id="overlay">
+            <div class="contenedor-img">
+                <button id="btn-cerrar-modal"> <i class="far fa-window-close"></i> </button>
+                <img src="img/ciudad1.png" alt="cuidad">
+            </div>
+            <p class="descripcion">1. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, debitis?</p>
+        </section>
     </div>
 
     <script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
